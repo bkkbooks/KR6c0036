@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6c0036/T/v1
+canonical_location: https://kanripo.org/bkk/KR6c0036/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金剛般若波羅蜜經破取著不壞假名論
+  identifiers:
+    krp: KR6c0036
+    cbeta: T25n1515
+    cbeta_old_id: T25n1515
+    authorityid: CA0001602
+    json_key: T1515
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T25/T25n1515.xml
+    old_id: T25n1515
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0036_000-T.yaml, hash: 'sha256:2151e5a980083bd52ebb19d339fc2f3c5196374cbc72814df2e8bcf93179adb8'}
+  - {seq: 1, filename: KR6c0036_001-T.yaml, hash: 'sha256:85f2853edae13df2447614a47e1bdbad8781df456e9ec01e18d3520623f0de4c'}
+  - {seq: 2, filename: KR6c0036_002-T.yaml, hash: 'sha256:6c082ef848c49a386ae5415d1f741658f0087ee562a8e6e0a4939edb2ad9f8ff'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6c0036_000-T.markers.yaml, hash: 'sha256:f0458dfc6c24546b03cb27b41d8cac5a25c0386b5047ec8374660efb14648c6f'}
+  - {seq: 1, role: markers, filename: assets/KR6c0036_001-T.markers.yaml, hash: 'sha256:28e9827b3c6d984a8e540c8c5d338ed9463c0e6a9cce633b069a6d7b2033b6a6'}
+  - {seq: 2, role: markers, filename: assets/KR6c0036_002-T.markers.yaml, hash: 'sha256:7f70c8840f063444a770755bf8ff20ce2b29d62de432c1231d3d23f501e5a32e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0036_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7450
+  label: '金剛般若波羅蜜經破取著不壞
+
+    假名論卷上'
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6c0036_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 7251
+  label: '金剛般若波羅蜜經破取著不壞
+
+    假名論卷下'
+  type: juan
+  level: 1
+hash: sha256:0bc5452f11c714b6c592b745a284cb9699f56d3faee8e174f345809dbfb486a7
